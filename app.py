@@ -48,8 +48,8 @@ def getNikto():
 #   -Dsonar.projectKey=test \
 #   -Dsonar.sources=. \
 #   -Dsonar.host.url=http://192.168.151.107:9000 \
-#   -Dsonar.login=a5bd36363ad46e2a8db081a6216d6987b17fc086
-# post请求格式json 例子：{"project_name":"xxxx", "git_address":"http://mp.iyou.com/bin.zou/mp_intelligence.git", "pom_dir":"/"}
+#   -Dsonar.login=xxxxxxx
+# post请求格式json 例子：{"project_name":"xxxx", "git_address":"http://mp.iyou.com/xx.xx/xxx.git", "pom_dir":"/"}
 @app.route('/sonarcmd', methods=["POST"])
 def getGit():
     data = request.json
