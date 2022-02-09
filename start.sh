@@ -1,0 +1,1 @@
+nohup /data/python3.9/bin/gunicorn -w 2 -b 0.0.0.0:23333 app:app --timeout 3600 > gunicorn.log 2>&1 &
